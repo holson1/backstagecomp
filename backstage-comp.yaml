@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-comp
+  description: Henry's Test Component
+  tags:
+    - java
+    - data
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a
